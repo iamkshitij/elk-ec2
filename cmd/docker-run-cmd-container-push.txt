@@ -1,0 +1,1 @@
+ docker run -d --name docker-s3-push-test --log-driver=fluentd --log-opt fluentd-address=localhost:24224 --log-opt tag="docker.{{.Name}}" b5e42ff02ce5

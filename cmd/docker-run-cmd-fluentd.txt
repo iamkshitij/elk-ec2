@@ -1,0 +1,1 @@
+docker run -d --name fluentd   -v $(pwd)/fluent.conf:/fluentd/etc/fluent.conf   -p 24224:24224 -p 24224:24224/udp   fluent/fluentd
